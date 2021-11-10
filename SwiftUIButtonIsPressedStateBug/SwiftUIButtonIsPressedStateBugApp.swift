@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct SwiftUIButtonIsPressedStateBugApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("Button") {
             ContentView()
         }
+        
     }
 }
